@@ -1,0 +1,222 @@
+h3{
+    color: blue;
+}
+.container{
+    margin-left: 200px;
+    align-items: center;
+  }
+  .box1{
+    width: 100px;
+    height: 100px;
+    background: rgb(232, 54, 122);
+    transition: width 2s;
+     transition-timing-function: linear; 
+  }
+  .box1:hover {
+    width: 300px;
+  }
+  .box2{
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 220, 101);
+    transition:height width 2s;
+    margin-top: 10px;
+    transition-timing-function: linear;
+  }
+  .box2:hover {
+    width: 300px;
+    height: 300px;
+  }
+  .box3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(232, 54, 122);
+    transition: width 2s;
+    transition-timing-function: linear;
+  }
+  .box3:hover {
+    width: 300px;
+  }
+  .box4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: ease;
+  }
+  .box4:hover {
+    width: 300px;
+  }
+  .box5{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(232, 54, 122);
+    transition: width 2s;
+    transition-timing-function: ease-in;
+  }
+  .box5:hover {
+    width: 300px;
+  }
+  .box6 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: ease-out;
+  }
+  .box6:hover {
+    width: 300px;
+  }
+  .box7 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(232, 54, 122);
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+  }
+  .box7:hover {
+    width: 300px;
+  }
+  .element1{
+    width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: translate(50px,100px);
+  }
+  .element2{
+    width: 100px;
+  height: 100px;
+  margin-top: 90px;
+  background-color: rgb(145, 255, 0);
+  border: 1px solid black;
+  transform: rotate(360deg);
+animation:roll 2s linear 1s infinite;
+  }
+  @keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .item1{
+    border: 1px solid rgb(192, 68, 68);
+    background-color: rgb(196, 72, 72);
+    color: white;
+    grid-column: 1 / 5;
+    text-align: center;
+    height: 55px;
+    
+}
+.item2{
+    border: 1px solid rgb(161, 144, 238) ;
+background-color: rgb(158, 107, 224);
+color: white;
+grid-column: 1/2;
+height: 80px;
+text-align: center;
+margin-top: 10px;
+
+
+}
+.item3{
+    border: 1px solid rgb(79, 79, 245);
+    background-color: rgb(79, 79, 245);
+    color: white;
+    grid-column: 2/3;
+    height: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+    }
+    .item4{
+        background-color: blue;
+        color: white;
+        grid-column: 3/4;
+        height: 80px;
+        /* text-align: center; */
+        margin-top: 10px;
+        margin-left: 20px;
+        
+        }
+        .item6{
+            background-color: rgb(190, 47, 47);
+            color: white;
+            text-decoration: underline;
+            grid-column: 4/5;
+            grid-row: 2/5;
+            height: 220px;
+            width: 100px;
+            margin-left: 30px;
+            /* grid-column: 1/-1; */
+            margin-top: 10px;
+        }
+        .item5{
+            background-color: rgb(0, 255, 51);
+            color: white;
+            grid-column: 1/4;
+            grid-row: 3/ span 5;
+            height: 130px;
+            margin-top: 10px;
+           /* margin-bottom: 10px; */
+            width: 100%;
+            padding: 0;
+
+        }
+        .item7{
+            background-color: rgb(255, 242, 0);
+             text-align: center; 
+            color: black;
+            width: 100%;
+            margin-top: 10px;
+            height: 40px;
+            grid-row: 6/7;
+            grid-column: 1/5;
+        }
+       /* div p {
+            background-color: yellow;
+          } */
+           /* div > p {
+            background-color: yellow;
+          }  */
+           /* div + p {
+            background-color: yellow;
+          }  */
+           div ~ p {
+            background-color: yellow;
+          } 
+          a:link {
+            color: red;
+          }
+          
+          /* visited link */
+          a:visited {
+            color: green;
+          }
+          
+          /* mouse over link */
+          a:hover {
+            color: hotpink;
+          }
+          
+          /* selected link */
+          a:active {
+            color: blue;
+          }

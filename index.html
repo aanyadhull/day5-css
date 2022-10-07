@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>1.Show implementation of transition</h2>
+    <h3>CSS transitions allows you to change property values smoothly, over a given duration.<br>
+      1.  transition<br>
+2. transition-delay<br>
+3. transition-duration<br>
+4.transition-property<br>
+5.transition-timing-function<br>
+The transition-timing-function property can have the following values:<br>
+
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)<br>
+linear - specifies a transition effect with the same speed from start to end<br>
+ease-in - specifies a transition effect with a slow start<br>
+ease-out - specifies a transition effect with a slow end<br>
+ease-in-out - specifies a transition effect with a slow start and end<br>
+cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function<br>
+
+    </h3>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        </div>
+        <h2>2.Show implementation of transform</h2>
+        <h3>With the CSS transform property you can use the following 2D transformation methods:<br>
+
+            translate()<br>
+            rotate()<br>
+            scaleX()<br>
+            scaleY()<br>
+            scale()<br>
+            skewX()<br>
+            skewY()<br>
+            skew()</h3>
+            <div class="element1">hello world!!!</div><br>
+            <div class="element2">hello world!!!</div><br>
+            <h2>3.Show implementation of grid</h2>
+            <div class="grid-container">
+                <div class="item1">1</div>
+                <div class="item2">2</div>
+                <div class="item3">3</div>  
+                <div class="item4">4</div>
+                <div class="item5">5</div>
+                <div class="item6">6</div>  
+                <div class="item7">7</div>
+                
+              </div>
+              <h2>What are css combinators</h2>
+              <h3>A combinator is something that explains the relationship between the selectors.<br>
+
+                A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.<br>
+                
+                There are four different combinators in CSS:<br>
+                
+                descendant selector (space)<br>
+                child selector (>)<br>
+                adjacent sibling selector (+)<br>
+                general sibling selector (~)</h3>
+                <h2>Descendant Selector</h2>
+
+<p>The descendant selector matches all elements that are descendants of a specified element.</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section><p>Paragraph 3 in the div.</p></section>
+</div>
+
+<p>Paragraph 4. Not in a div.</p>
+<p>Paragraph 5. Not in a div.</p>
+<h2>Child Selector</h2>
+
+<p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+    <!-- not Child but Descendant -->
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  <p>Paragraph 4 in the div.</p>
+</div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+
+<h2>Adjacent Sibling Selector</h2>
+
+<p>The + selector is used to select an element that is directly after another specific element.</p>
+<p>The following example selects the first p element that are placed immediately after div elements:</p>
+
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+</div>
+
+<p>Paragraph 3. After a div.</p>
+<p>Paragraph 4. After a div.</p>
+
+<div>
+  <p>Paragraph 5 in the div.</p>
+  <p>Paragraph 6 in the div.</p>
+</div>
+
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+<h2>General Sibling Selector</h2>
+
+<p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+
+<p>Paragraph 1.</p>
+
+<div>
+  <p>Paragraph 2.</p>
+</div>
+
+<p>Paragraph 3.</p>
+<code>Some code.</code>
+<p>Paragraph 4.</p>
+<h2>5.What are Pseudo-selector in css?</h2>
+<h3>A pseudo-class is used to define a special state of an element.<br>
+
+For example, it can be used to:<br>
+
+Style an element when a user mouses over it<br>
+Style visited and unvisited links differently<br>
+Style an element when it gets focus</h3>
+<a href="https://www.prepbytes.com/">prepbytes</a>
+</body>
+</html>
